@@ -1,0 +1,60 @@
+.depoimento {
+  padding: 0em 20em;
+  margin-bottom: 8em;
+}
+
+
+.depoimentos-pessoa {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgba(196, 25, 25, 0.03);
+  border-radius: 16px;
+  padding: 5em 5em 5em 5em
+}
+
+.testemunho {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testemunha {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.depoimento__titulo {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 600;
+  color: #8E2424;
+  margin-bottom: 1.5em;
+}
+
+.depoimento__texto {
+  font-family: 'Inter';
+  font-size: 36px;
+  font-weight: 500;
+  color: #101828;
+  margin-bottom: 1.5em;
+}
+
+.depoimento__imagem {
+  margin-bottom: 1.5em;
+}
+
+.testemunha__titulo {
+  font-family: 'Inter';
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 1em;
+}
+
+.testemunha__texto {
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 400;
+  color: #667085;
+}
